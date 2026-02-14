@@ -1,15 +1,13 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://mckerlie.com/",
-  author: "Adam McKerlie",
-  desc: "Musings of an Engineering Leader",
-  title: "Adam McKerlie",
+  website: "https://pvc-kappa.vercel.app/",
+  author: "Darlene Cheong Sze Wei",
+  desc: "The Molecular Basis of Premature Ventricular Contractions",
+  title: "Darlene Cheong",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 25,
-  twitterAccount: "adammckerlie",
-  tags: ['Adam McKerlie', 'engineering leader', 'personal blog', 'musings of an engineering leader' ]
+  
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
